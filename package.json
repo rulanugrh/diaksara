@@ -1,0 +1,21 @@
+{
+  "name": "furniture-web",
+  "version": "1.0.0",
+  "description": "template website e-commerce furniture",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/rulanugrh/diaksara"
+  },
+  "author": "rulanugrh",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
+}
