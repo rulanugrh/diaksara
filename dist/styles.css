@@ -1168,6 +1168,14 @@ input:checked + .toggle-bg{
   top: 100%;
 }
 
+.right-6{
+  right: 1.5rem;
+}
+
+.left-6{
+  left: 1.5rem;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -1448,10 +1456,6 @@ input:checked + .toggle-bg{
   width: 16rem;
 }
 
-.w-96{
-  width: 24rem;
-}
-
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -1490,6 +1494,14 @@ input:checked + .toggle-bg{
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-md{
+  max-width: 28rem;
 }
 
 .flex-1{
@@ -2889,6 +2901,11 @@ input:checked + .toggle-bg{
   padding-bottom: 1.5rem;
 }
 
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -2903,6 +2920,14 @@ input:checked + .toggle-bg{
 
 .pt-24{
   padding-top: 6rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-left{
@@ -3176,6 +3201,11 @@ input:checked + .toggle-bg{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 66 159 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -3766,6 +3796,30 @@ html {
 .hover\:text-lightCream:hover{
   --tw-text-opacity: 1;
   color: rgb(245 239 230 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(164 202 254 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(118 169 250 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-900:hover{
+  --tw-text-opacity: 1;
+  color: rgb(35 56 118 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-100:hover{
