@@ -1480,10 +1480,6 @@ input:checked + .toggle-bg{
   max-width: 9rem;
 }
 
-.max-w-3xl{
-  max-width: 48rem;
-}
-
 .max-w-7xl{
   max-width: 80rem;
 }
@@ -1502,6 +1498,22 @@ input:checked + .toggle-bg{
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.max-w-3xl{
+  max-width: 48rem;
+}
+
+.max-w-screen-2xl{
+  max-width: 1536px;
+}
+
+.max-w-screen-lg{
+  max-width: 1024px;
+}
+
+.max-w-xl{
+  max-width: 36rem;
 }
 
 .flex-1{
@@ -3996,6 +4008,11 @@ html {
     padding-right: 1.5rem;
   }
 
+  .sm\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -4021,6 +4038,11 @@ html {
 
   .md\:justify-between{
     justify-content: space-between;
+  }
+
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:text-lg{
@@ -4120,6 +4142,16 @@ html {
     padding-bottom: 4rem;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -4210,6 +4242,13 @@ html {
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *){
     paint-order: markers;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
